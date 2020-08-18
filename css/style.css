@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+section{
+    height: 500px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.first{
+    background-image: url('../image/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h1 span{
+    color: orange;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+p{
+    padding-bottom: 5px;
+}
+
+.anchor{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(80deg, lightsalmon, tomato);
+    border-radius: 5px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+
+.second{
+    background-image: url('../image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.third{
+    background-image: url('../image/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.three h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.three h3{
+    font-size: 25px;
+    font-weight: 300;
+    color: orange;
+}
+
+.third div{
+    box-shadow: 5px 5px 40px dimgrey;
+    height: 55%;
+}
+
+#fullstack{
+    background-color: #ffffff;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    
+    border-image-slice: 1;
+}
+
+#wordpress{
+    background-color: #ffffff;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, tomato,  rgb(236, 174, 150));
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
+
+footer span{
+    color: rgb(221, 20, 20);
+}
+
